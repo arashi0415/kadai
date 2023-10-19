@@ -1,0 +1,645 @@
+/* ここから下に記載していく */
+
+/* @charset "utf-8";
+*{ margin: 0;
+  padding: 0;
+} */
+
+
+.warp{
+  width: 1200px;
+  height: 1200px;
+  margin: auto;
+}
+
+.hazime {
+  display: flex;
+}
+.hazime img{
+  width: 100%;
+  height: 100%;
+}
+.tennmetu{
+  animation: blinkAnime 1s infinite alternate;
+}
+@keyframes blinkAnime{
+  0% { opacity : 1.0; }
+100% { opacity : 0.3; }
+}
+
+.ichi{ 
+  display: flex;
+  font-size: 21px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ichi a{
+  color: #ffd61a;
+}
+li{margin-left: 50px;}
+
+
+.zu{
+  position: relative;
+}
+
+.zu img{
+
+  width: 100%;
+}
+
+.zu2{
+  position:absolute;
+  width: 100%;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.zu2 p{
+  text-align: center;
+  color: #fafafa;
+  
+}
+.mozu{
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.mozu2{
+  margin-top: 15px;
+  letter-spacing: 8px;
+  font-size: 22px;
+}
+
+.kage{
+  box-shadow:0px 0px 25px #ffd61a;
+}
+.san{
+  text-align: center;
+  margin-top: 60px;
+  color:#ffd61a;
+  font-size: 24px;
+}
+
+.kuro1{
+  text-align: center;
+  font-size: 16px;
+}
+
+.a{margin-top: 30px;}
+.b{margin-top: 60px;}
+.c{margin-top: 30px;}
+.ab{margin-top: 10px;}
+.e{margin-top: 40px;}
+.ac{margin-top: 40px;}
+.ad{margin-top: 10px;}
+
+.syasin4{
+  margin-top: 80px;
+  display: flex
+}
+.syasin4 img{
+  width: 25%;
+  align-self: flex-start;
+}
+
+
+  .honnbunn1 h3{
+  margin-top: 60px;
+  font-size: 24px;
+  color: #ffd61a;
+}
+.honnbunn1{
+  text-align: center;
+}
+.honnbunn2{
+  font-size: 16px;
+  margin-top: 30px;
+}
+.naka{
+  margin-top: 10px;
+}
+
+.ko-su1{
+  width: 100%;
+  background-color: #fafafa;
+  display: flex ;
+  margin-top: 60px;;
+  position: relative;
+  overflow: hidden;
+}
+
+.ko-su1 img{
+  width:50%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.ko-su1 h4{
+  margin-top: 120px;
+  text-align: center;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.ko-su1a {
+  text-align: left;
+}
+
+.ko-su2a{
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 14px;
+  margin-bottom: 120px
+  
+}
+.ko-su2a p{
+  line-height: 2.5;
+}
+.ko-su3{
+  width: 100%;
+  background-color: #fafafa;
+  display: flex ;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.ko-su3b h1{
+  font-size: 24px;
+  margin-left: 150px;
+}
+
+.ko-su3 img{
+  width:50%;
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+.ko-su4 p{
+  font-size: 14px;
+  line-height: 2.5;
+  margin-left: 150px;
+}
+.qw{ margin-top: 40px;}
+
+.ko-su3b{
+  width: 100%;
+  text-align:left;
+  margin-right: 50px;
+  margin-top: 60PX
+  
+}
+.course{
+  display: flex;
+  width: 100%;
+  background-color: #fafafa;
+  overflow: hidden;
+  position: relative;
+}
+
+.course img{
+  width: 50%;
+}
+
+.mozi{
+  margin-top: 120px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 120px;
+}
+
+.mozi h1{
+  font-size: 24px;
+}
+
+.mozi2{
+  font-size: 14px;
+  text-align: left;
+  line-height: 2.5;
+  margin-top: 40px;
+}
+
+.news{ 
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.news h1{
+  font-size: 24px;
+  color: #ffd61a;}
+.news p{margin-top: 30px;}
+
+.hoba-{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.hoba- a{
+  color: black;
+}
+
+.hoba- img{
+  width: 300px;
+  
+}
+.hoba- a{
+  margin: 15px;
+}
+
+
+.ho1 p{
+  line-height: 2;
+  font-size:13px;
+}
+.ho1 h1{
+  margin-bottom: 24px;
+}
+.ho1{
+  text-align: left;
+  width: 300px;
+  
+}
+.ho2 p{
+    line-height: 2;
+  font-size:13px;
+}
+
+.ho2 h1{
+  margin-bottom: 24px;
+}
+.ho2{
+  text-align: left;
+  width: 300px;
+  
+}
+.ho3 p{
+    line-height: 2;
+    font-size:13px;
+}
+
+.ho3 h1{
+    margin-bottom: 24px;
+}
+
+.ho3{
+    text-align: left;
+    width: 300px;
+    
+}
+
+.box{
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.box3{
+  text-decoration: none;
+}
+.box2{
+  width: 300px;
+  height: 60px;
+  background-color: #ffd61a;
+  margin: auto;
+  overflow: hidden;
+  
+}
+.box2 p{
+  color: #fafafa;
+  font-size: 18px;
+  margin-top: 25px;
+
+}
+
+.map{
+  margin-top: 60px;
+  width: 1100px;
+  background-color: #fafafa;
+  margin: auto;
+  overflow: hidden;
+}
+.map h1{
+font-size: 24px;
+margin-top: 60px;
+}
+.map h2{
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.map h3{
+  font-size: 14px;
+  margin-top: 60px;
+  margin-left: 375px;
+  text-align: left;
+}
+.map1{
+  margin-top: 30px;
+  font-size: 14px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 375px;
+}
+
+.contact h1{
+  margin-top: 60px;
+  font-size: 24px;
+}
+.contact h2{
+  margin-top: 30px;
+  font-size: 14px;
+}
+.contact h3{
+  font-size: 14px;
+  margin-top: 60px;
+}
+.contact h4{
+  margin-top: 30px;
+  font-size: 14px;
+  margin-bottom: 70px;
+}
+
+.form{
+  width: 640px;
+  margin: auto;
+  height: auto;
+  margin-bottom: 30px;
+}
+.name{
+  border-top: 2px solid #bfbfbf;
+  width: 640px;
+  height: 36px;
+  display: flex;
+  overflow: hidden;
+
+}
+.nbox {
+  width: 240px;
+  height: 36px;
+  border-right: 1px solid #dfdfdf;
+  border-bottom:1px solid #dfdfdf ;
+}
+.nbox p{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.namae{
+  width: 328px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+.kana{
+  border-top: 1px solid #bfbfbf;
+  width: 640px;
+  height: 36px;
+  display: flex;
+  overflow: hidden;
+
+}
+.kanabox {
+  width: 240px;
+  height: 36px;
+  border-right: 1px solid #dfdfdf;
+  border-bottom:1px solid #dfdfdf ;
+}
+.kanabox p{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.kana2{
+  width: 328px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.mail{
+  border-top: 1px solid #bfbfbf;
+  width: 640px;
+  height: 36px;
+  display: flex;
+  overflow: hidden;
+
+}
+.mailbox {
+  width: 240px;
+  height: 36px;
+  border-right: 1px solid #dfdfdf;
+  border-bottom:1px solid #dfdfdf ;
+}
+.mailbox p{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.mail2{
+  width: 328px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.ki{
+  border-top: 1px solid #bfbfbf;
+  width: 640px;
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+
+}
+.kibox {
+  width: 240px;
+  border-right: 1px solid #dfdfdf;
+  border-bottom:1px solid #dfdfdf ;
+}
+.kibox p{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 64px;
+}
+.kikkake23{margin-bottom: 16px;}
+
+.ki2{
+  width: 335px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  height: 45px;
+}
+
+.sibou{
+  border-top: 1px solid #bfbfbf;
+  width: 640px;
+  display: flex;
+  overflow: hidden;
+
+}
+.siboubox {
+  width: 240px;
+  border-right: 1px solid #dfdfdf;
+  border-bottom:1px solid #dfdfdf ;
+}
+.siboubox p{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 64px;
+}
+
+.siboubox2 {
+  width: 328px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  text-align: left;
+}
+.kigyou{
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.cheese{
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.cheese2{
+  font-size: 14px;
+  margin-bottom: 24px;
+  width: 500px;
+}
+
+.cheese3{
+  font-size: 14px;
+margin-bottom: 8px;
+}
+
+.syousai{
+  border-top: 1px solid #bfbfbf;
+  width: 640px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  border-bottom: 2px solid #bfbfbf;
+  
+
+}
+.syousaibox {
+  width: 240px;
+  height: auto;
+  border-right: 1px solid #dfdfdf;
+}
+.syousaibox p{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.syousaibox2{
+  width: 328px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px; 
+}
+#ass{
+  background-color: beige;
+}
+.okuru{
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.bk{
+  width: 300px;
+  height: 60px;
+  background-color: #ffd61a;
+  margin: auto;
+  overflow: hidden;
+  border-color: #fafafa;
+}
+
+.bk h1{
+  color: #fafafa;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.owari{
+  height: auto;
+  width: 100%;
+  background-color: #707070;
+  display: table;
+}
+
+.owari h1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+body{ 
+  cursor: none;
+  background-color: beige;
+}
+
+#cursor{
+  position: fixed;
+  z-index: 2;
+  pointer-events: none;
+}
+#cursor img{
+  width: 50px;
+
+}
+input#check[type="checkbox"]{
+  appearance: none;
+}
+
+input#check[type="checkbox"]{
+  position: relative;
+  margin-left: 0;
+  width: 13px;
+  height: 13px;
+  border: 1px solid beige;
+  background-color: #bfbfbf;
+  vertical-align: -5.5px;
+}
+input#check[type="checkbox"]:checked:before{
+  position: absolute;
+  top: -10px;
+  left: 4px;
+  transform: rotate(50deg);
+  width: 8px;
+  height: 16px;
+  border-right: 2px solid #ffd61a;
+  border-bottom: 2px solid #ffd61a;
+  content: '';
+}
