@@ -1,0 +1,12 @@
+name: example
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run tests
+        run: echo "test desu"
+        
